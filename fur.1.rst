@@ -130,7 +130,7 @@ Options
 Platform options
 =================
 
--p package_manager
+-p package-manager
 
   Package manager.
   It can have any compatible
