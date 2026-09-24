@@ -111,12 +111,12 @@ Options
   Output directory for the packages.
 
 
--D y\/n
+-D <y/n>
 
   Whether to skip dependencies check.
 
 
--R y\/n
+-R <y/n>
 
   Resolve missing dependencies.
 
@@ -205,6 +205,39 @@ Platform options
   adding support for a new
   architecture consult
   Reallymakepkg documentation.
+
+
+Package manager options
+==========================
+ 
+-k profile
+
+  One of a set of pre-configured
+  'pacman.conf's included with
+  the fur. It can be:
+
+  - system
+
+    It uses the system package
+    manager configuration file.
+
+  - emptyman
+
+    A configuration file for
+    installing a package and
+    all of its dependencies from
+    the command line directly;
+    useful when pacman is not
+    the system package manager.
+
+
+-C config-file-path
+
+  Set a configuration file for the
+  fur underlying's package manager
+  through the 'fur' program rather
+  than as an option for the package
+  manager program.
 
 
 Mirror options
